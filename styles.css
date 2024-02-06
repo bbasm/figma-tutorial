@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #070241;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+.logo {
+    font-weight: bold;
+    color: white;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+#logo-header {
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+li {
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    display: flex;
+}
+
+ul {
+    justify-content: space-around;
+    display: flex;
+    margin-right: 10rem;
+    min-width: 25vw;
+}
+
+.main-heading {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 100%;
+    overflow: hidden;
+}
+
+.bodytext {
+    font-family: 'Roboto', sans-serif;
+}
+
+#landing-section-img {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 1rem);
+}
+
+#landing-text {
+    width: 400px;
+}
+
+#landing-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#buy-nft-button {
+    width: 255px;
+    height: 80px;
+    background-color: #9191DC;
+    border-radius: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.sub-heading {
+    font-weight: 600;
+    font-size: 20;
+    color: white;
+    text-transform: uppercase;
+}
+
+#sell-nft-button {
+    width: 255px;
+    height: 80px;
+    background-color: transparent;
+    border-radius: 78px;
+    border: 1px solid #8AD1D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-img {
+    width: 500px;
+    height: 500px;
+    /* width: 40%;
+    height: auto; */
+}
+
+#black-circle {
+    width: 734px;
+    height: 679px;
+    background-color: #010618;
+    border-radius: 50%;
+    filter: blur(300px);
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+}
+
+#teal-circle {
+    width: 615px;
+    height: 570px;
+    background-color: rgba(170, 217, 217, 70%);
+    border-radius: 50%;
+    filter: blur(370px);
+    position: absolute;
+    top: 65%;
+    left: 85%;
+    z-index: -5;
+}
+
+#logos-section {
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-container {
+    height: 80px;
+    width: calc(100% - 20rem);
+    background-color: rgba(107, 102, 175, 30%);
+    border-radius: 17px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+#featured-on-text {
+    margin-left: 10rem;
+    margin-bottom: 0.5rem;
+}
+
+#analytic-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+#analytic-section-text {
+    width: 500px;
+    margin-left: 2.5rem;
+}
+
+.second-heading {
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 100%;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+#analytics-bodytext {
+    width: 400px;
+    margin: 2rem 0;
+}
+
+#pricing-button {
+    background-color: #9191DC;
+    width: 350px;
+    height: 70px;
+    border-radius: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#testimonial-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 180px;
+}
+
+.blue-color {
+    color: #AAD9D9;
+    margin-bottom: 20px;
+}
+
+#testimonial-headings {
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.review-container {
+    background-color: #252060;
+    width: 355px;
+    height: 280px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 130px;
+    width: 130px;
+    margin-bottom: -75px;
+    margin-left: calc(177px - 75px);
+}
+
+.review-name {
+    padding-top: 2rem;
+}
+
+.review-text {
+    padding-top: 3rem;
+    text-align: center;
+    width: 300px;
+}
+
+#review-sections {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 20rem);
+    justify-content: space-between;
+}
+
+#get-started-container {
+    width: calc(100% - 20rem);
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 17px;
+    background: rgb(170, 217, 217);
+    background: linear-gradient(90deg, rgba(170, 217, 217, 1) 0%, rgba(138, 209, 210, 1) 3%, rgba(77, 68, 180, 1) 100%);
+}
+
+#get-started-button {
+    height: 60px;
+    width: 280px;
+    background-color: black;
+    border-radius: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+section {
+    padding: 80px 13% 70px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+}
+
+.footer-content h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer-content li {
+    margin-top: 10px;
+}
+
+.footer-content li a{
+    color: rgb(235, 235, 235);
+    font-weight: 400;
+    font-size: 15px;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: #fff;
+}
